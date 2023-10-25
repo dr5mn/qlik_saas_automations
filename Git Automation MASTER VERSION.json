@@ -1,20 +1,29 @@
 
 SHEETS
+{"qInfo":{"qId":"db1669ea-9e78-42fc-ab58-4d011e20c200","qType":"sheet"},"qMeta":{"title":"My new sheet","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"db1669ea-9e78-42fc-ab58-4d011e20c200","approved":false,"published":false,"owner":"auth0|b08ffca0103376ba460d7f51e598f333ead1a89b8dbea24939b0350b21d6c650","ownerId":"6538ee3e36c3cf82c4e1e486","createdDate":"2023-10-25T12:54:05.301Z","modifiedDate":"2023-10-25T13:02:09.263Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
 
 OBJECTS ON SHEETS
+{"bounds":{"y":0,"x":50,"width":50,"height":100},"col":12,"colspan":12,"name":"MpAAw","row":0,"rowspan":12,"smartGrid":{"rowIdx":0,"itemIdx":0,"item":{"width":1}},"type":"table"}
+{"bounds":{"y":0,"x":0,"width":50,"height":100},"col":0,"colspan":12,"name":"hsCGsM","row":0,"rowspan":12,"smartGrid":{"rowIdx":1,"itemIdx":0,"item":{"width":1}},"type":"piechart"}
 
 DIMENSIONS
+{"qInfo":{"qId":"bad9ced0-bce9-43b2-8c75-aab398fd8bfc","qType":"dimension"},"qMeta":{"title":"Person","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"bad9ced0-bce9-43b2-8c75-aab398fd8bfc","approved":false,"published":false,"owner":"auth0|b08ffca0103376ba460d7f51e598f333ead1a89b8dbea24939b0350b21d6c650","ownerId":"6538ee3e36c3cf82c4e1e486","createdDate":"2023-10-25T12:56:06.171Z","modifiedDate":"2023-10-25T12:56:06.171Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"WVjsJW","qType":"dimension"},"qMeta":{"title":"Craft","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"WVjsJW","approved":false,"published":false,"owner":"auth0|b08ffca0103376ba460d7f51e598f333ead1a89b8dbea24939b0350b21d6c650","ownerId":"6538ee3e36c3cf82c4e1e486","createdDate":"2023-10-25T12:56:01.031Z","modifiedDate":"2023-10-25T12:56:01.031Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
 
 MEASURES
+{"qInfo":{"qId":"kuuFsp","qType":"measure"},"qMeta":{"title":"# People","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"kuuFsp","approved":false,"published":false,"owner":"auth0|b08ffca0103376ba460d7f51e598f333ead1a89b8dbea24939b0350b21d6c650","ownerId":"6538ee3e36c3cf82c4e1e486","createdDate":"2023-10-25T12:56:46.375Z","modifiedDate":"2023-10-25T12:56:46.375Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
 
 VARIABLES
 
 FIELDS
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":2,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":1,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":2,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":5,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":2,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":2,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":2,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":3,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
 {"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
 {"qName":"Column1","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Dummy Data"]}
 {"qName":"Column2","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Dummy Data"]}
+{"qName":"craft","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["people"]}
+{"qName":"name","qCardinal":10,"qTags":["$ascii","$text"],"qSrcTables":["people"]}
+{"qName":"__KEY_root","qCardinal":1,"qTags":["$numeric","$integer"],"qSrcTables":["people"]}
