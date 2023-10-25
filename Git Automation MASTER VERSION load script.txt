@@ -25,4 +25,29 @@ load * inline [
 Column1, Column2
 Value1_1, Value1_2
 Value2_1, Value2_2
-]
+];
+
+
+LIB CONNECT TO 'Space people';
+
+RestConnectorMasterTable:
+SQL SELECT 
+	"__KEY_root",
+	(SELECT 
+		"craft",
+		"name",
+		"__FK_people"
+	FROM "people" FK "__FK_people")
+FROM JSON (wrap on) "root" PK "__KEY_root";
+
+[people]:
+LOAD	[craft],
+	[name],
+	[__FK_people] AS [__KEY_root]
+RESIDENT RestConnectorMasterTable
+WHERE NOT IsNull([__FK_people]);
+
+
+DROP TABLE RestConnectorMasterTable;
+
+
