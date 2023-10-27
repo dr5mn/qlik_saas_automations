@@ -57,7 +57,11 @@ DROP TABLE RestConnectorMasterTable;
 
 Random notes to indicate changes
 
-8:35
+26.10 8:35
 some more notes
+
+27.10 8:01
+some changes in script to check diff
+
 
 */
