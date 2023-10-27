@@ -63,5 +63,8 @@ some more notes
 27.10 8:01
 some changes in script to check diff
 
+8:04
+more script changes as automation was not saved
+
 
 */
